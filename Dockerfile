@@ -5,5 +5,5 @@ RUN apk add --no-cache \
 COPY ./docker-entrypoint /
 EXPOSE 9050
 EXPOSE 9051
-ENTRYPOINT ["/docker-entrypoint.sh"]
+ENTRYPOINT ["/docker-entrypoint"]
 CMD ["tor"]
